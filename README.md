@@ -26,7 +26,7 @@ To display what's on the stack, use `@`:
 
 <br>
 
-To invert the two last values on top of the stack, use `~#`:
+To invert the last two values on top of the stack, use `~#`:
 ```
 1 2 ~# @
 ```
@@ -55,7 +55,7 @@ This one also has a `:` variant, but also the last variant for these, `::`, whic
 2 :
 @
 ```
->	1	2
+>	1	2	1	2
 ```
 1 2
 2 3 ::
@@ -118,7 +118,7 @@ BEWARE ! Labels are bound to the context they are created in although they're av
 
 Let's look at unconditionnal jumps, they are done with `!`, which pops the stack and jumps to the retrieved addresss:
 ```
-forver: ;
+forever: ;
     "AAAAA" @
 forever !
 ```
