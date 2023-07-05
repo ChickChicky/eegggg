@@ -3,7 +3,7 @@ import os
 from eegggg import *
 import sys
 
-__version__ = '0.0.3'
+__version__ = '0.0.5'
 
 print(f'EEGGGG interpreter v{__version__} (https://github.com/ChickChicky/eegggg/)\n')
 
