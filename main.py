@@ -3,6 +3,10 @@ import os
 from eegggg import *
 import sys
 
+__version__ = '0.0.1'
+
+print(f'EEGGGG interpreter v{__version__} (https://github.com/ChickChicky/eegggg/)\n')
+
 args = sys.argv[1:]
 
 if len(args) == 0:
