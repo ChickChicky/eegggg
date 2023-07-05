@@ -26,7 +26,7 @@ def isfloatstr(s):
 source: str = None
 
 if args[0] == '-':
-    source = src(sys.stdin.buffer.read())
+    source = sys.stdin.buffer.read().decode('utf-8')
 else:
     with open(args[0],'r') as f:
         source = f.read()
