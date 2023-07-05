@@ -3,7 +3,7 @@ import os
 from eegggg import *
 import sys
 
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 
 print(f'EEGGGG interpreter v{__version__} (https://github.com/ChickChicky/eegggg/)\n')
 
@@ -26,7 +26,7 @@ def isfloatstr(s):
 source: str = None
 
 if args[0] == '-':
-    source = sys.stdin.buffer.read()
+    source = src(sys.stdin.buffer.read())
 else:
     with open(args[0],'r') as f:
         source = f.read()
