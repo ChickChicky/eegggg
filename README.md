@@ -3,7 +3,7 @@
 
 ## EGG but more... EGG ?
 
-This is a kind of stupid stack-based programming language I made cuz I thought it would be fun ¯\\_(ツ)_/¯.
+This is a kind of stupid stack-based programming language I made cuz I thought it would be fun ¯\\\_(ツ)\_/¯.
 
 
 
